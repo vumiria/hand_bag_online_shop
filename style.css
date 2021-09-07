@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+#main-header{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+}
+#main-header h1{
+    text-transform: capitalize;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    word-spacing: 0.5em;
+}
+.container{
+   width: 80%;
+   margin: auto;
+   
+}
+
+#navbar{
+    background-color: rgb(65, 9, 90);
+    padding: 15px 14px;
+    margin: auto;
+    width: 70%;
+    margin-top: 12px;
+    text-align: center;
+    letter-spacing: 7px;
+    word-spacing: 0.5em;
+    position: fixed;
+
+    
+
+}
+#navbar ul{
+    list-style: none;
+    
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 13px;
+
+}
+#navbar a:hover{
+    background-color: rgb(0, 0, 0);
+    
+}
+.clr{
+    clear: both;
+}
+.ima{
+    padding-top: 15%;
+    
+
+}
+#showCase h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30PX;
+    color: rgb(24, 14, 14);
+    padding-top: 80px 0px 50px 60px;
+    margin: 100px;
+}
+.vuvu{
+    width:30.5%;
+    float: left;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px;
+}
+.main-box{
+    width: 70%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.vuv{
+    margin-top: 20%;
+}
+.h{
+    padding-top: 22px;
+    padding-left: 3%;
+
+}
+.sideBar{
+    width: 30%;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#main-footer{
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 0px;
+    margin: 13%;
+}
+.fix-me{
+position: fixed;
+margin-top: 20px;
+margin-left: 12px;
+}
+@media (max-width:600px){
+.vuvu{
+    width: 100%;
+    float: none;
+}
+.main-box{
+    width: 100%;
+    float: none;
+}
+.sideBar{
+    width: 100%;
+    float: none;
+}
+}
+p{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nn{
+    margin-top: 14px;
+    border-radius: 6px;
+}
